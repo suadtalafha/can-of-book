@@ -11,8 +11,8 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-
 class App extends React.Component {
+
 
   render() {
  
@@ -31,7 +31,9 @@ class App extends React.Component {
             </Switch>
             <Footer />
           {/* </IsLoadingAndError> */}
+          
         </Router>
+       
       </>
     );
   }
